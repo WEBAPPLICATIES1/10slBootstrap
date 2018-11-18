@@ -535,7 +535,7 @@ Using a single set of `.col-sm-*` classes, you can create a grid system that sta
 ---
 ### Layout
 # Stacked to horizontal
-<img src="/docs/images/Grid.png" alt="drawing" width="100%"/>
+<img src="images/Grid.png" alt="drawing" width="100%"/>
 
 ---
 class:dark
