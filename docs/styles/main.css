@@ -7,7 +7,7 @@ body {
 .remark-slide-content {
   background-color: #f3f3f3;
   color: #222;
-  background-image: url(/docs/images/logo_dark.png);
+  background-image: url(../images/logo_dark.png);
   background-size: 100px;
   background-position: 97% 95%;
   background-repeat: no-repeat;
@@ -89,7 +89,7 @@ body {
 .dark {
   background-color: #222;
   color: #f3f3f3;
-  background-image: url(/docs/images/logo_light.png);
+  background-image: url(../images/logo_light.png);
   background-size: 100px;
   background-position: 97% 95%;
   background-repeat: no-repeat;

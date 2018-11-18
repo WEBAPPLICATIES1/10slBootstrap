@@ -5,12 +5,12 @@
     @if $colorschema==$light {
         background-color: $light;
         color: $dark;
-        background-image: url(/docs/images/logo_dark.png);
+        background-image: url(../images/logo_dark.png);
     }
     @else {
         background-color: $dark;
         color: $light;
-        background-image: url(/docs/images/logo_light.png);
+        background-image: url(../images/logo_light.png);
     }
     background-size: 100px;
     background-position: 97% 95%;
