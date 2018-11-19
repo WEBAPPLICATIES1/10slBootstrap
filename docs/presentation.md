@@ -1573,13 +1573,12 @@ Luckily the Bootstrap-team did a fine job documenting their `form` controls.
 
 Finalize learning the basics of Bootstrap by reading up on [Forms in Bootstrap](https://getbootstrap.com/docs/4.1/components/forms/).
 
-
 ---
 ### Workshop
 # Forms
 Learn how to collect user input by using Bootstrap Form Controls.
 
-Act:
+**Act:**
 - Create the `form` as shown on the [online example](https://webapplicaties1.github.io/10thBootstrap/contact).
     - The `form` is divided into 2 `cols`.
     - Make sure to use:
