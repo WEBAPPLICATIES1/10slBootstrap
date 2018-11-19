@@ -17,12 +17,12 @@ On regular intervals there will be a slide with a white background and a subtitl
 
 > The documentation is located [here](https://getbootstrap.com/docs/4.1/getting-started/introduction)
 
+
 ---
 ### Workshop
 # Preview
 
 The end result of this workshop is available online.
-
 
 **Act**:
 - Visit the website by following [this link](https://webapplicaties1.github.io/10thBootstrap/)
@@ -44,6 +44,22 @@ Guidelines
 > These items are remarks
 
 ---
+class: dark
+### Codebase
+# Behind the scenes
+
+Repositories
+- [Workshop Starter](https://github.com/WEBAPPLICATIES1/10thBootstrap)
+- [Workshop Solution](https://github.com/WEBAPPLICATIES1/10thBootstrap/tree/solution/exercise)
+- [Workshop Slides](https://github.com/WEBAPPLICATIES1/10slBootstrap)
+
+File downloads
+- [Workshop Starter](https://github.com/WEBAPPLICATIES1/10thBootstrap/archive/master.zip)
+- [Workshop Solution](https://github.com/WEBAPPLICATIES1/10thBootstrap/archive/solution.zip)
+
+---
+
+
 
 class: dark middle center
 
