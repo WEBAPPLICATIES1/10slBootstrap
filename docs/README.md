@@ -9,3 +9,6 @@ An online preview of the resulting website can be found [here](https://webapplic
 
 ## Solution
 A possible solution to the exercise can be found in [the solution branch of the 10thBootstrap repository](https://github.com/WEBAPPLICATIES1/10thBootstrap/tree/solution/exercise).
+
+## Deployment
+An update is directly deployed to https://webapplicaties1.github.io/10slBootstrap when there is a new commit on the `master` branch.
