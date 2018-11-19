@@ -1,4 +1,4 @@
-class: intro dark middle center
+class: dark middle center
 
 # Bootstrap 
 > Build responsive, mobile-first projects on the web with the world's most popular front-end component library. 
@@ -168,7 +168,7 @@ Learning to setup Bootstrap from scratch.
 
 **Act:**
 - Open Visual Studio Code
-- Download the starter files from [here](https://github.com/WEBAPPLICATIES1/10thBootstrap)
+- Download the starter files from [here](https://github.com/WEBAPPLICATIES1/10thBootstrap/archive/master.zip)
 - Unzip the folder
 - In the **exercise** folder Create a new **index.html** file
 - Copy the [starter template](https://getbootstrap.com/docs/4.1/getting-started/introduction/#starter-template) from the bootstrap website into **index.html**
@@ -472,7 +472,6 @@ Utilize column classes .col-**n** for easy column sizing without additional HTML
     </div>
 </div>
 <br>
-> The total amount of columns **cannot** exceed 12.
 
 ---
 ### Layout
@@ -530,7 +529,8 @@ Using a single set of `.col-sm-*` classes, you can create a grid system that sta
     </div>
 </div>
 <br/>
-> Try resizing the browser to a phone-size.
+
+> Resize this browser window to a phone-size.
 
 ---
 ### Layout
@@ -544,13 +544,13 @@ class:dark
 # Mix and Match
 Don’t want your columns to simply stack in some grid tiers? Use a combination of different classes for each tier as needed. 
 
-> Each class scales up, so if you wish to set the same widths for xs and sm, you only need to specify xs.
+> Each class **scales up**, so if you wish to set the same widths for `xs and sm`, you **only** need to specify `xs`.
 
 
 ```html
 <div class="row">
-  <div class="col-sm-6 col-md-10">.col-sm-6 .col-md-10</div>
-  <div class="col-sm-6 col-md-2">.col-sm-6 .col-md-2</div>
+  <div class="`col-sm-6 col-md-10`">.col-sm-6 .col-md-10</div>
+  <div class="`col-sm-6 col-md-2`">.col-sm-6 .col-md-2</div>
 </div>
 ```
 <div class="bootstrap">
@@ -563,13 +563,14 @@ Don’t want your columns to simply stack in some grid tiers? Use a combination 
 </div>
 <br/>
 
-> Resize the browser from small to large
+> Resize this browser window to a phone-size.
+
 ---
 class:dark
 ### Layout
 # Mix and Match
 ```html
-Columns are always 50.00% (`6`) wide, on mobile and desktop
+In this example, cols are always 50.00% (`6`) wide, on mobile and desktop
 <div class="row">
   <div class="col-`6`">.col-6</div>
   <div class="col-`6`">.col-6</div>
@@ -586,10 +587,9 @@ Columns are always 50.00% (`6`) wide, on mobile and desktop
 </div>
 <br/>
 
-> Resize the browser from small to large
+> Resize this browser window to a phone-size.
 
 ---
-
 
 ### Workshop
 # Stacked to horizontal
@@ -624,7 +624,8 @@ Move columns to the right using `.offset-md-*` classes. These classes increase t
     </div>
 </div>
 <br/>
-> Resize the browser from small to large (stacked)
+
+> Resize this browser window to a phone-size.
 
 ---
 class: dark
@@ -753,7 +754,7 @@ To show an element only on a given interval of screen sizes you can combine one 
 
 > Avoid creating entirely different versions of the same site, instead hide element responsively for each screen size.
 
-> Resize the browser from small to large
+> Resize this browser window to a phone-size.
 
 ---
 class:dark
@@ -1063,14 +1064,14 @@ The `navbar-brand` can also be a company logo.
 ```html
 <nav class="navbar navbar-light bg-light">
     <a class="navbar-brand" href="#">
-*        <img src="images/logo.png" alt="logo">
+*        <img src="images/logo.png" height="32px" alt="logo">
     </a>
 </nav>
 ```
 <div class="bootstrap">
     <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand" href="javascript:alert('logo clicked')">
-            <img src="images/logo.png" alt="logo">
+        <a class="navbar-brand"  href="javascript:alert('logo clicked')">
+            <img src="images/logo.png" height="32" alt="logo">
         </a>
     </nav>
     </div>
@@ -1100,7 +1101,11 @@ The `nav` inside a `navbar` can be abit tricky to understand at first, since a n
     </nav>
 </div>
 <br/>
-> Do not forget the `navbar-expand-*`, resize the browser since the navbar is responsive by default.
+
+> Do not forget the `navbar-expand-*`!
+
+> Resize this browser window to a phone-size.
+
 
 ---
 class: dark
@@ -1128,7 +1133,7 @@ To create a collapsible navigation bar, use a `button` with `class="navbar-toggl
 </div>
 <br/>
 
-> Resize the browser, a hamburger menu should show when < `.md`
+> Resize this browser window to a phone-size a hamburger menu should show.
 
 > Note that for this to work, the javascript files have to be imported.
 
@@ -1171,7 +1176,7 @@ Open the **index.html** page
     - The `collapse` content is aligned right only on screens >= `md`
         - Use the [d-flex utilities](https://getbootstrap.com/docs/4.1/utilities/flex/) 
     - Make sure to link the `a` tags to the correct pages 
-        - The pages are located in the /html folder
+        - The pages are located in the /exercise folder
         - "Over ons" doesn't have a link
 
 ---
@@ -1179,9 +1184,9 @@ Open the **index.html** page
 # Navbar Starter
 Complete the `navbar`, make sure to resize this window.
 <div class="bootstrap">
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <div class="container">
-    <img src="images/logo.png" alt="logo">
+    <img src="images/logo.png" height="32" alt="logo">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#theTarget">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -1259,7 +1264,7 @@ Learn how to make a page responsive.
 </div>
 <br/>
 
-> Resize the screen from small to large to see the effect.
+> Resize this browser window to a phone-size.
 
 ---
 class: dark
@@ -1362,11 +1367,11 @@ class: dark
 Code for the previous slide
 
 ```html
-<div class="card text-muted">
-    <img class="card-img-top" src="..."  alt="Card image cap">
-    <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some example text...</p>
+<div class="`card` text-muted">
+    <img class="`card-img-top`" src="..."  alt="Card image cap">
+    <div class="`card-body`">
+        <h5 class="`card-title`">Card title</h5>
+        <p class="`card-text`">Some example text...</p>
     </div>
 </div>
 ```
@@ -1409,7 +1414,7 @@ class:dark
 
 Yup... We're just making them look prettier with Bootstrap.
 
-Using the most basic table markup, here’s how .table-based tables look in Bootstrap. All table styles are inherited in Bootstrap 4, meaning any nested tables will be **styled in the same manner as the parent**.
+Using the most basic table markup, here’s how `.table`-based tables look in Bootstrap. All table styles are inherited in Bootstrap 4, meaning any nested tables will be **styled in the same manner as the parent**.
 
 <div class="bootstrap">
     <table class="table table-hover table-bordered">
@@ -1445,7 +1450,7 @@ class:dark
 # Tables
 
 ```html
-<table class="table table-hover table-bordered">
+<table class="`table table-hover table-bordered`">
   <thead>
     <tr>
       <th>Name</th>
@@ -1551,20 +1556,44 @@ Learn how to make a table responsive.
 
 **Act:**
 Open the `openingsuren.html` page
-- ** #$@&%*! ** Bootstrap is **not referenced** on this page either.
-    - Fix it.
+- Format the `table` as shown on the [online example](https://webapplicaties1.github.io/10thBootstrap/openingsuren).
 - Make the `table` 
     - `responsive`
     - `bordered`
     - `striped`
+- Note the `dark` background and light color of the `thead` tag.
+    - Use the documentation to find out how we did it.
 ---
 class:dark
 ### Components
 # Forms
-Last but not least... `Forms`! Luckily Bootstrap did a fine job in creating thorough documentation how to style and use them.
+Last but not least... `Forms`! The HTML `<form>` element defines a form that is used to collect user input. Form elements are different types of input elements, like text fields, checkboxes, radio buttons, submit buttons, and more.
+
+Luckily the Bootstrap-team did a fine job documenting their `form` controls.
 
 Finalize learning the basics of Bootstrap by reading up on [Forms in Bootstrap](https://getbootstrap.com/docs/4.1/components/forms/).
 
 
+---
+### Workshop
+# Forms
+Learn how to collect user input by using Bootstrap Form Controls.
 
+Act:
+- Create the `form` as shown on the [online example](https://webapplicaties1.github.io/10thBootstrap/contact).
+    - The `form` is divided into 2 `cols`.
+    - Make sure to use:
+        - `placeholder` for the name
+        - helper elements
+        - `input-group-prepend` for the phone number
+        -  `radio` buttons for
+        - `checkbox` for the subscription
+        - `text-area` for the description 
+        - `button` to send the data
+            - You don't have to send the data anywhere.
 
+---
+class: dark middle center
+
+# Bootstrap 
+> Build responsive, mobile-first projects on the web with the world's most popular front-end component library. 
