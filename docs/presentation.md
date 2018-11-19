@@ -72,7 +72,7 @@ class: dark
 ### Introduction
 # Bootstrap
 
-Bootstrap is a **moblile-first** **front-end** library for faster and easier web development. It includes `HTML` and `CSS` based design templates for creating **common user interface components** like:
+Bootstrap is a **mobile-first** **front-end** library for faster and easier web development. It includes `HTML` and `CSS` based design templates for creating **common user interface components** like:
 - forms
 - buttons 
 - navigations
