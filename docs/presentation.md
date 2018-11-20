@@ -117,7 +117,7 @@ There are multiple ways to use Bootstrap in your project:
     - Skip the download and directly add a link to the BootstrapCDN to deliver cached version of Bootstrap’s **compiled CSS and JS** to your project.
     - This does **not** include dependencies nor documentation.
 - Package managers
-    - See Web Applications > I
+    - See Web ApplicationsII
 
 ---
 
@@ -493,7 +493,7 @@ Utilize column classes .col-**n** for easy column sizing without additional HTML
 ### Layout
 # Stacked to horizontal
 <img src="https://public-media.interaction-design.org/images/ux-daily/566045208824a.png" alt="drawing" width="100%"/>
-A handheld device is not capable of showing all the content horizontally, therefore the content is **stacked** vertically. However a desktop's screen is large enough to show the content **horizontally**. To tacke this responsive issue,Bootstrap’s grid includes five tiers of **predefined classes** for building complex responsive layouts. 
+A handheld device is not capable of showing all the content horizontally, therefore the content is **stacked** vertically. However a desktop's screen is large enough to show the content **horizontally**. To tackle this responsive issue, Bootstrap’s grid includes five tiers of **predefined classes** for building complex responsive layouts. 
 
 ---
 
@@ -1025,7 +1025,7 @@ A Navbar helps the user to navigate around the website, it is mostly placed at t
 class:dark
 ### Navbar
 # Theming
-Theming the navbar has never been easier thanks to the combination of theming classes and background-color utilities. Choose from `.navbar-light` for use with light background colors, or `.navbar-dark` for dark background colors. Then, customize with `.bg-*` utilities.
+Theming the navbar has never been easier thanks to the combination of theming classes and background-color utilities. Choose from `.navbar-light` for use with light background colors, or `.navbar-dark` for dark background colors. Then customize with `.bg-*` utilities.
 
 - `navbar-dark bg-dark` white text, dark background
 - `navbar-light bg-light` dark text, white background
