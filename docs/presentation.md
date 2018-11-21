@@ -924,9 +924,9 @@ There are multiple styles you can use to show your navigation, by default it wil
 
 ```html
 <ul class="nav `nav-pills`">
-  <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-  <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-  <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+  <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+  <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+  <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
   <li class="nav-item"><a class="nav-link disabled">Disabled</a></li>
 </ul>
 ```
@@ -954,9 +954,9 @@ An alternative to `.nav-pills` are the `.nav-tabs`.
 
 ```html
 <ul class="nav `nav-tabs`">
-  <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-  <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-  <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+  <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+  <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+  <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
   <li class="nav-item"><a class="nav-link disabled">Disabled</a></li>
 </ul>
 ```
@@ -984,9 +984,9 @@ class: dark
 Basically the `.nav` behaves like a flexbox-container, simply add the flex classes to the `.nav` element. In the case of flex-column the nav will be shown vertically. In the example we're combining `.nav-pills` with the `.flex-column` class.
 ```html
 <ul class="nav nav-pills `flex-column`">
-  <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-  <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-  <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+  <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+  <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+  <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
   <li class="nav-item"><a class="nav-link disabled">Disabled</a></li>
 </ul>
 ```
