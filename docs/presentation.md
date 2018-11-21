@@ -897,7 +897,7 @@ class: dark
 The base `.nav` component is built with **flexbox** and provide a strong foundation for building all types of navigation components. 
 ```html
 <ul class="`nav`">
-  <li class="`nav-item`"><a class="`nav-link`" href="#">Home</a></li>
+  <li class="`nav-item`"><a class="`nav-link active`" href="#">Home</a></li>
   <li class="`nav-item`"><a class="`nav-link`" href="#">About</a></li>
   <li class="`nav-item`"><a class="`nav-link`" href="#">Contact</a></li>
   <li class="`nav-item`"><a class="`nav-link` disabled">Disabled</a></li>
@@ -906,7 +906,7 @@ The base `.nav` component is built with **flexbox** and provide a strong foundat
 <div class="bootstrap">
     <div class="container bg-white ">
         <ul class="nav">
-        <li class="nav-item"><a class="nav-link text-primary" href="javascript:alert('Home')">Home</a></li>
+        <li class="nav-item"><a class="nav-link active text-primary" href="javascript:alert('Home')">Home</a></li>
         <li class="nav-item"><a class="nav-link text-primary" href="javascript:alert('About')">About</a></li>
         <li class="nav-item"><a class="nav-link text-primary" href="javascript:alert('Contact')">Contact</a></li>
         <li class="nav-item"><a class="nav-link text-muted disabled">Disabled</a></li>
@@ -924,7 +924,7 @@ There are multiple styles you can use to show your navigation, by default it wil
 
 ```html
 <ul class="nav `nav-pills`">
-  <li class="nav-item"><a class="nav-link" href="#">Active</a></li>
+  <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
   <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
   <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
   <li class="nav-item"><a class="nav-link disabled">Disabled</a></li>
