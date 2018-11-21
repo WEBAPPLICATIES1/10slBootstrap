@@ -897,7 +897,7 @@ class: dark
 The base `.nav` component is built with **flexbox** and provide a strong foundation for building all types of navigation components. 
 ```html
 <ul class="`nav`">
-  <li class="`nav-item`"><a class="`nav-link active`" href="#">Home</a></li>
+  <li class="`nav-item`"><a class="`nav-link` active" href="#">Home</a></li>
   <li class="`nav-item`"><a class="`nav-link`" href="#">About</a></li>
   <li class="`nav-item`"><a class="`nav-link`" href="#">Contact</a></li>
   <li class="`nav-item`"><a class="`nav-link` disabled">Disabled</a></li>
