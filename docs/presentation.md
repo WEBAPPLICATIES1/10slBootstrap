@@ -209,7 +209,7 @@ class: dark
 # Bootstrap
 
 Interally Bootstrap uses:
-- **S**yntactially **A**wesome **S**tyle**S**heets
+- **S**yntactically **A**wesome **S**tyle**S**heets
     - Bootstrap 4.0+ (used to be **LESS**)
 - **J**ava**S**cript
 - Various Fonts
