@@ -1320,7 +1320,7 @@ Open the **index.html** file
 class: dark
 ### Components
 # List Group
-`list-groups` are a flexible and powerful component for displaying a series of content. Modify and extend them to support just about any content within. A `list-group` is basically an unordered list and very similar to a `nav`.
+`list-group` is a flexible and powerful component for displaying a series of content. Modify and extend them to support just about any content within. A `list-group` is basically an unordered list and very similar to a `nav`.
 
 ```html
 *<ul class="list-group">
