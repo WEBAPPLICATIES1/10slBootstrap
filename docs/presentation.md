@@ -1080,7 +1080,7 @@ The `navbar-brand` can also be a company logo.
 ```html
 <nav class="navbar navbar-light bg-light">
     <a class="navbar-brand" href="#">
-*        <img src="images/logo.png" height="32px" alt="logo">
+*        <img src="images/logo.png" height="32" alt="logo">
     </a>
 </nav>
 ```
