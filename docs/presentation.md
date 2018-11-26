@@ -1602,7 +1602,7 @@ Learn how to collect user input by using Bootstrap Form Controls.
         - `placeholder` for the name
         - helper elements
         - `input-group-prepend` for the phone number
-        -  `radio` buttons for
+        - `radio` buttons for telephone or e-mail
         - `checkbox` for the subscription
         - `text-area` for the description 
         - `button` to send the data
