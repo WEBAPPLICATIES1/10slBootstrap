@@ -1500,9 +1500,6 @@ Responsive `tables` allow `tables` to be scrolled horizontally with ease. Make a
         <th scope="col">Heading</th>
         <th scope="col">Heading</th>
         <th scope="col">Heading</th>
-        <th scope="col">Heading</th>
-        <th scope="col">Heading</th>
-        <th scope="col">Heading</th>
       </tr>
     </thead>
     <tbody>
@@ -1512,10 +1509,7 @@ Responsive `tables` allow `tables` to be scrolled horizontally with ease. Make a
         <td>Cell</td>
         <td>Cell</td>
         <td>Cell</td>
-        <td>Cell</td>
-        <td>Cell</td>
-        <td>Cell</td>
-        <td>Cell</td>
+        <td>Cell</td>       
       </tr>
       <tr>
         <th scope="row">2</th>
@@ -1523,16 +1517,10 @@ Responsive `tables` allow `tables` to be scrolled horizontally with ease. Make a
         <td>Cell</td>
         <td>Cell</td>
         <td>Cell</td>
-        <td>Cell</td>
-        <td>Cell</td>
-        <td>Cell</td>
-        <td>Cell</td>
+        <td>Cell</td>        
       </tr>
       <tr>
         <th scope="row">3</th>
-        <td>Cell</td>
-        <td>Cell</td>
-        <td>Cell</td>
         <td>Cell</td>
         <td>Cell</td>
         <td>Cell</td>
