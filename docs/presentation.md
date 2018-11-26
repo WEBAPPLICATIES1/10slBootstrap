@@ -142,7 +142,7 @@ class: dark
 
 To start using bootstrap, you can copy-paste the starter template from the [official website](https://getbootstrap.com/docs/4.1/getting-started/introduction/#starter-template).
 
-Basically the template is noting more than a `HTML` page with `link` and optional `script` tags.
+Basically the template is nothing more than a `HTML` page with `link` and optional `script` tags.
 
 
 > Note the usage of the `link`- and `script` tags. These references are importing Bootstrap on your page(s).
