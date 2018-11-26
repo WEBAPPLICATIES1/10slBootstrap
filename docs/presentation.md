@@ -1095,7 +1095,7 @@ The `navbar-brand` can also be a company logo.
 class: dark
 ### Navbar
 # nav
-The `nav` inside a `navbar` can be abit tricky to understand at first, since a navbar should be responsive by default.
+The `nav` inside a `navbar` can be a bit tricky to understand at first, since a navbar should be responsive by default.
 ```html
 <nav class="navbar `navbar-expand-lg` navbar-dark bg-dark">
 *    <div class="navbar-nav">
