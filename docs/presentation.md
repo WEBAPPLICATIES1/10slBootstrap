@@ -881,7 +881,7 @@ class: dark middle center
 class: dark 
 ### Components
 # Overview
-There are many Bootstrap components, the entire list can be found [here](https://getbootstrap.com/docs/4.1/component). In the workshop we'll use the following:
+There are many Bootstrap components, the entire list can be found [here](https://getbootstrap.com/docs/4.1/components/alerts/). In the workshop we'll use the following:
 - [Nav](https://getbootstrap.com/docs/4.1/components/navs/)
 - [Navbar](https://getbootstrap.com/docs/4.1/components/navbar/)
 - [Jumbotron](https://getbootstrap.com/docs/4.1/components/jumbotron/)
