@@ -208,7 +208,7 @@ class: dark
 ### Behind the scenes
 # Bootstrap
 
-Interally Bootstrap uses:
+Internally Bootstrap uses:
 - **S**yntactically **A**wesome **S**tyle**S**heets
     - Bootstrap 4.0+ (used to be **LESS**)
 - **J**ava**S**cript
