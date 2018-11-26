@@ -1411,7 +1411,7 @@ Open the **index.html** file
 class: dark
 ### Debugging
 # Garderobe
-You just finished the `index.html` page, congratulations! In the meanwhile the **garderobe.html** page was created by another developer. Well... the components are there but appearantly Bootstrap does not seem to be working. *sigh*
+You just finished the `index.html` page, congratulations! In the meanwhile the **garderobe.html** page was created by another developer. Well... the components are there but apparantly Bootstrap does not seem to be working. *sigh*
 
 **Act:**
 Open garderobe.html
