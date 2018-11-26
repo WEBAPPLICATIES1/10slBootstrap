@@ -894,7 +894,7 @@ There are many Bootstrap components, the entire list can be found [here](https:/
 class: dark
 ### Components
 # Nav
-The base `.nav` component is built with **flexbox** and provide a strong foundation for building all types of navigation components. 
+The base `.nav` component is built with **flexbox** and provides a strong foundation for building all types of navigation components. 
 ```html
 <ul class="`nav`">
   <li class="`nav-item`"><a class="`nav-link` active" href="#">Home</a></li>
@@ -920,7 +920,7 @@ The base `.nav` component is built with **flexbox** and provide a strong foundat
 class:dark
 ### Nav
 # Pills
-There are multiple styles you can use to show your navigation, by default it will show as links. When using `.nav-pills`, the links will be shown as "pills" or button-like.
+There are multiple styles you can use to show your navigation, by default it will be shown as links. When using `.nav-pills`, the links will be shown as "pills" or button-like.
 
 ```html
 <ul class="nav `nav-pills`">
