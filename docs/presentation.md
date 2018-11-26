@@ -1484,6 +1484,7 @@ class:dark
 ```
 
 ---
+class: dark 
 ### Content
 # Responsive tables
 Responsive `tables` allow `tables` to be scrolled horizontally with ease. Make any table responsive across all viewports by wrapping a `.table` with `.table-responsive`. Or, pick a maximum breakpoint with which to have a responsive table up to by using `.table-responsive{-sm|-md|-lg|-xl}`.
