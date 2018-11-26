@@ -209,12 +209,12 @@ class: dark
 # Bootstrap
 
 Interally Bootstrap uses:
-- **S**yntactially **A**wseome **S**tyle**S**heets
+- **S**yntactially **A**wesome **S**tyle**S**heets
     - Bootstrap 4.0+ (used to be **LESS**)
 - **J**ava**S**cript
 - Various Fonts
 - Reboot
-    - Resetting the brower's default styles
+    - Resetting the browser's default styles
 - Additional JS Libraries:
     - Popper.js
     - jQuery.js
