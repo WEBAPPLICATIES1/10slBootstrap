@@ -612,7 +612,7 @@ In this example, cols are always 50.00% (`6`) wide, on mobile and desktop
 Learn how bootstrap rearranges the grid based on the screen size.
 
 **Act:**
-- Navigate to [this]( https://www.w3schools.com/bootstrap/bootstrap_grid_examples.asp) website.
+- Navigate to [this](https://www.w3schools.com/bootstrap4/bootstrap_grid_examples.asp) website.
     - Look at the code examples and try them out (green buttons)
     - You'll have to resize your browser window quite often
 
